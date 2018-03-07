@@ -1,0 +1,8 @@
+import java.io.*;
+import java.util.*;
+
+public class Two_Cakes {
+	public static void main(String[]args) {
+		
+	}
+}

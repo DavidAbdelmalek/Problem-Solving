@@ -1,0 +1,25 @@
+import java.util.Arrays;
+
+public class Base_Class {
+
+	public static void main(String[] args) {
+
+		int[] arr={1,2,3,3,5,6,7,8,9};// size =9
+		System.out.println(arr[BS(3,arr)]);
+	}
+
+	static int BS(int target,int []arr) {
+		System.out.println(Arrays.toString(arr));
+		int st = 0, end = arr.length, mid = 0;
+		while (st <= end) {
+			mid = (st + end) / 2;
+			if (arr[mid] >= target)
+				end = mid - 1;
+			else
+				st = mid + 1;
+		}
+
+		System.out.println(st);
+		return st;
+	}
+}

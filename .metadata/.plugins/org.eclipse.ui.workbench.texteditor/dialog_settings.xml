@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="604" key="DIALOG_X_ORIGIN"/>
+		<item value="369" key="DIALOG_Y_ORIGIN"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="used" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="people"/>
+			<item value="used"/>
+			<item value="int"/>
+			<item value="next"/>
+			<item value="import java.io.*;"/>
+			<item value="f"/>
+			<item value="sort"/>
+			<item value="in i"/>
+			<item value="int i"/>
+			<item value="int it"/>
+			<item value="i"/>
+			<item value="query"/>
+			<item value="index"/>
+			<item value="System"/>
+			<item value="46"/>
+		</list>
+		<list key="replacehistory">
+			<item value="long"/>
+			<item value="46"/>
+			<item value="presence"/>
+			<item value="parent"/>
+			<item value="coins"/>
+			<item value="rem"/>
+			<item value="lds"/>
+			<item value="lis"/>
+			<item value="totalCoins"/>
+			<item value="tree"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="290" key="DIALOG_WIDTH"/>
+		<item value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont" key="DIALOG_FONT_NAME"/>
+		<item value="409" key="DIALOG_HEIGHT"/>
+		<item value="1342" key="DIALOG_X_ORIGIN"/>
+		<item value="136" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

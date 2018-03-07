@@ -1,0 +1,51 @@
+import java.io.*;
+import java.util.*;
+
+public class B {
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		long N = sc.nextLong(); int k = sc.nextInt();
+		long type , rem=(long) (1e18+10),capacity,temp;
+		for(int i  = 1; i <= k ; i++) {
+			capacity=sc.nextLong();
+			if(N%capacity==0) {
+				System.out.println(i + " "+(N/capacity));
+				return;
+			}
+			
+		}
+	}
+
+	static class Scanner {
+		StringTokenizer st;
+		BufferedReader br;
+
+		public Scanner(InputStream s) {
+			br = new BufferedReader(new InputStreamReader(s));
+		}
+
+		public String next() throws IOException {
+			while (st == null || !st.hasMoreTokens())
+				st = new StringTokenizer(br.readLine());
+			return st.nextToken();
+		}
+
+		public int nextInt() throws IOException {
+			return Integer.parseInt(next());
+		}
+
+		public long nextLong() throws IOException {
+			return Long.parseLong(next());
+		}
+
+		public String nextLine() throws IOException {
+			return br.readLine();
+		}
+
+		public boolean ready() throws IOException {
+			return br.ready();
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+
+public class Bishu_And_Soliders {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}

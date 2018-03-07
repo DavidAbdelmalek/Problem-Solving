@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+
+public class Crazy_Computer {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int c = sc.nextInt(), out=0;
+		int first=sc.nextInt();out++;
+		for(int i = 1;i<n;i++) {
+			
+		}
+	}
+}

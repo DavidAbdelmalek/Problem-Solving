@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Perfect_Number {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		int  n =sc.nextInt();
+		
+		int [] arr =new int [10001];
+	
+		int i=19;
+		int sum=0;
+		while(true) {
+			sum = sum(i);
+			if(sum==10)n--;
+			if(n==0) {
+				System.out.println(i);
+				return;
+			}
+			i++;
+		}
+		
+	}
+	static int sum(int n) {
+		int sum=0;
+		while(n>0) {
+			sum+=(n%10);
+			n/=10;
+		}
+	}
+}

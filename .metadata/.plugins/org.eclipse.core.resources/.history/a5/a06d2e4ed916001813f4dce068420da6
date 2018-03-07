@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+
+public class Bachgold_Problem {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int totalTwos = 0,totalThrees,total;
+		if(n%2==0) 
+			total=totalTwos=n/2;
+		else {
+			total=1+totalTwos=n/2
+		}
+			
+	}
+}

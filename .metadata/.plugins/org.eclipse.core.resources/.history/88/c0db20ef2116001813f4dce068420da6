@@ -1,0 +1,30 @@
+import java.io.*;
+import java.util.*;
+
+public class Laptops {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		int n  =sc.nextInt();
+		
+		//Comparator Sorting
+		Collections.sort(arr, new Comparator<Pair>() {
+					@Override
+					public int compare(Pair o1, Pair o2) {
+			///Sorting descendingly
+		return o1.age > o2.age ? -1 :(o1.age < o2.age ? 1 : 0);
+			//Sorting ascendingly
+		return o1.age > o2.age ? 1 :(o1.age < o2.age ? -1 : 0); //Sorted in Ascending
+						return 0;
+					}
+				});
+				
+	}
+	static class Pair{
+		int price,int quality;
+		
+		public Pair(int p , int q) {
+			price=p;quality=q;
+			// TODO Auto-generated constructor stub
+		}
+	}
+}

@@ -1,0 +1,54 @@
+import java.io.*;
+import java.util.*;
+
+public class Convenient_For_EveryBody {
+	static int[]people;
+	static int n,s,f;
+	static int min=(int)1e9;
+	static int maxPeople=0;
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		PrintWriter pw = new PrintWriter(System.out);
+		n = sc.nextInt();
+		people = new int[n+1];
+		int sum=0;
+		for (int i = 1; i <= n; i++) people[i] =sum+= sc.nextInt();
+		s = sc.nextInt(); f = sc.nextInt();
+		
+		int  currS = s ,currF = f-1,maxSum=people[currF]+people[currS-1],hour=1,temp;
+
+		int currH=1;
+		System.out.println(currS + " "+currF + " with sum "+maxSum);
+		System.out.println(Arrays.toString(people));
+		while(true) {
+			currH++;
+			currS--;currF--;
+			if(currS==0)currS=n;
+			if(currF==0)currF=n;
+			if(currS==s&&currF+1==f)break;
+			
+			if(currS>currf) 
+				temp=people[s]+(people[n]-people[f-1]);
+			
+			else 
+				temp = people[f]-people[s-1];
+			System.out.println(currS + " "+currF + " with sum "+temp);
+
+			
+			if(temp>maxSum) {
+				maxSum=temp;
+				hour=currH;
+			}
+		}
+		System.out.println(currH);
+	}
+
+	static int valid(int currHour) {
+		int sum=0;currHour--;
+		for(int i = 0 ;i < n ; i++) {
+			if(++currHour>n){currHour=1;}
+			if(currHour>=s&&currHour<f) {sum+=people[i];}
+		}
+		return sum;
+	}
+}

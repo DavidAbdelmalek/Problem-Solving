@@ -1,0 +1,15 @@
+Refactoring.savealleditors=true
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Enumeration"><rhs name\="java.util.StringTokenizer"/></lhs><lhs name\="java.util.StringTokenizer"><rhs name\="java.util.StringTokenizer"/></lhs><lhs name\="uva10583$DsuMainClass"><rhs name\="uva10583$DsuMainClass"/></lhs><lhs name\="Misha_And_Changing_Handles$DsuMainClass"><rhs name\="Misha_And_Changing_Handles$DsuMainClass"/></lhs><lhs name\="PolandBall_And_Forest$DsuMainClass"><rhs name\="PolandBall_And_Forest$DsuMainClass"/></lhs><lhs name\="Foxlings$DsuMainClass"><rhs name\="Foxlings$DsuMainClass"/></lhs><lhs name\="Foxlings$Query"><rhs name\="Foxlings$Query"/></lhs><lhs name\="Ice_Skating$DsuMainClass"><rhs name\="Ice_Skating$DsuMainClass"/></lhs><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.String"/></lhs><lhs name\="pSort$DsuMainClass"><rhs name\="pSort$DsuMainClass"/></lhs><lhs name\="uva1197$DsuMainClass"><rhs name\="uva1197$DsuMainClass"/></lhs><lhs name\="uva11742$Constraint"><rhs name\="uva11742$Constraint"/></lhs><lhs name\="Circular_RMQ$Scanner"><rhs name\="Circular_RMQ$Scanner"/></lhs><lhs name\="Circular_RMQ$FenwickTree"><rhs name\="Circular_RMQ$FenwickTree"/></lhs><lhs name\="Xenia_And_Bit_Operations$FenwickTree"><rhs name\="Xenia_And_Bit_Operations$FenwickTree"/></lhs></history>
+content_assist_number_of_computers=19
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

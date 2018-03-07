@@ -1,0 +1,24 @@
+
+public class Base_Class {
+	static int[] arr;
+
+	public static void main(String[] args) {
+		arr =new int[9];
+		arr={1,2,3,3,5,6,7,8,9};// size =9
+		System.out.println(BS(3));
+	}
+
+	static int BS(int target) {
+		int st = 0, end = arr.length, mid = 0;
+		while (st <= end) {
+			mid = (st + end) / 2;
+			if (arr[mid] >= target)
+				end = mid - 1;
+			else
+				st = mid + 1;
+		}
+
+		System.out.println(st);
+		return st;
+	}
+}

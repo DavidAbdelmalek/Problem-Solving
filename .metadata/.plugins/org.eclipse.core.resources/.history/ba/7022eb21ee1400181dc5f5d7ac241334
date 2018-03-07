@@ -1,0 +1,9 @@
+import java.io.*;
+import java.util.*;
+
+public class Pashmak_And_Flowers {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		
+	}
+}

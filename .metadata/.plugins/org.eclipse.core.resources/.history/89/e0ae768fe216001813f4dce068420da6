@@ -1,0 +1,115 @@
+import java.io.*;
+import java.util.*;
+
+public class pipeline {
+	static long n;
+	static long k;
+	static long total;
+	public static void main(String[]args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+		n = sc.nextLong();k= sc.nextLong();
+		total= (((k-1)*k)/2)+1;
+		System.out.println(BS());
+	}
+	
+	static boolean valid(long numberUsed) {		
+		long st=k-numberUsed;
+		
+		if(st==1)return total>=n;
+		long start=((st)/2)+1;
+		
+		return end-start>=n;
+	}
+	
+	
+	static long BS() {
+		if(k>=n)return 1;
+		if((((k-1)*k)/2)+1<n)return -1;
+		
+		
+		long st = 2,end=k,mid=0;	
+		
+		while(st<=end) {						// i make a binary search over the number of the pipelines needed to be used..
+			mid = (st+end)/2;
+			if(valid(mid))end=mid-1;			// if it is valid so we can minimize more so that i make end= make-1
+			else st=mid+1;
+		}
+		return st;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	static class Scanner 
+	{
+		StringTokenizer st;
+		BufferedReader br;
+
+		public Scanner(InputStream s){	br = new BufferedReader(new InputStreamReader(s));}
+
+		public String next() throws IOException 
+		{
+			while (st == null || !st.hasMoreTokens()) 
+				st = new StringTokenizer(br.readLine());
+			return st.nextToken();
+		}
+
+		public int nextInt() throws IOException {return Integer.parseInt(next());}
+		
+		public long nextLong() throws IOException {return Long.parseLong(next());}
+
+		public String nextLine() throws IOException {return br.readLine();}
+		
+		public double nextDouble() throws IOException
+		{
+			String x = next();
+			StringBuilder sb = new StringBuilder("0");
+			double res = 0, f = 1;
+			boolean dec = false, neg = false;
+			int start = 0;
+			if(x.charAt(0) == '-')
+			{
+				neg = true;
+				start++;
+			}
+			for(int i = start; i < x.length(); i++)
+				if(x.charAt(i) == '.')
+				{
+					res = Long.parseLong(sb.toString());
+					sb = new StringBuilder("0");
+					dec = true;
+				}
+				else
+				{
+					sb.append(x.charAt(i));
+					if(dec)
+						f *= 10;
+				}
+			res += Long.parseLong(sb.toString()) / f;
+			return res * (neg?-1:1);
+		}
+		
+		public boolean ready() throws IOException {return br.ready();}
+
+
+	}
+
+}
+	

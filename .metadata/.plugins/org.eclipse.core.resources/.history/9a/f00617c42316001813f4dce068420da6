@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class PashMark {
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		int x =sc.nextInt(),y=sc.nextInt(),x1=-200,y1=-200;
+		int in = sc.nextInt();
+		
+		if(in == x)y1=sc.nextInt();
+		else x1= in;
+		
+		if(x10)
+	}
+}

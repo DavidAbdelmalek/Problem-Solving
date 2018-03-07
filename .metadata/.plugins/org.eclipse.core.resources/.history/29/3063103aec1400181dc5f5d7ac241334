@@ -1,0 +1,9 @@
+import java.io.*;
+import java.util.*;
+
+public class Anton_And_Digits {
+	public static void main(String[]args) {
+		Scanner sc= new Scanner(System.in);
+		int two =sc.nextInt(),three=sc.nextInt(),five=sc.nextInt(),two=sc.nextInt();
+	}
+}

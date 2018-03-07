@@ -1,0 +1,26 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Bishu_And_Soliders {
+	static int power[];
+	public static void main(String[]args) {
+		Scanner sc = new Scanner(System.in);
+		int n =sc.nextInt();
+		power = new int[n];
+		for(int i = 0 ; i < n ; i++)power[i]=sc.nextInt();
+		Arrays.sort(power);
+		int Q = sc.nextInt();
+		StringBuilder sb = new StringBuilder("");
+		while(Q-->0)sb.append(BS(sc.nextInt())+"\n");
+		System.out.print(sb);
+	}
+	static int BS(int currPower) {
+		int st = 0 ,end =power.length,mid=0;
+		while(st<=end) {
+			mid = (st+end)/2;
+			if(power[mid]>currPower)end=mid-1;
+			else st=mid+1;
+		}
+		return end+1';
+	}
+}

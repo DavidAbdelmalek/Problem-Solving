@@ -1,0 +1,10 @@
+import java.io.*;
+import java.util.*;
+
+public class Burning_Midnight_Oil {
+	public static void main(String[]args){
+		Scanner sc = new Scanner(System.in);
+		
+	}
+	
+}

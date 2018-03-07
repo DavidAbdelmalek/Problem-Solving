@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;uva231.java&apos; to &apos;Sessions&apos;&#x0A;- Original project: &apos;Implementation&apos;&#x0A;- Destination element: &apos;Sessions&apos;&#x0A;- Original element: &apos;uva231.java&apos;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="=Sessions" element1="/src&lt;{uva231.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1517123833985" units="1" version="1.0"/>
+</session>
